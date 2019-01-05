@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         mRuntimePermission = new AppPermissions(this);
 
         if (mRuntimePermission.hasPermission(ALL_PERMISSIONS)) {
@@ -50,9 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         btnNewOrder =  findViewById(R.id.new_order);
-
         btnAllOrder = findViewById(R.id.all_order);
-
         btnInsertMenu =  findViewById(R.id.insert_menu_activity);
 
         btnNewOrder.setOnClickListener(new View.OnClickListener() {
