@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Resto RUN</string>
-    <string name="new_order">New Order</string>
-    <string name="all_order">All Order</string>
+    <string name="new_order">New Order 1</string>
+    <string name="all_order">All Order 1</string>
     <string name="insert_menu">Insert Menu</string>
     <string name="todo">TODO</string>
     <string name="namaMenu">Nama Menu</string>
